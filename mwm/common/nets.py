@@ -6,7 +6,9 @@ import tensorflow as tf
 from tensorflow.keras import layers as tfkl
 from tensorflow.keras import initializers as tfki
 from tensorflow_probability import distributions as tfd
-from tensorflow.keras.mixed_precision import experimental as prec
+#from tensorflow.keras.mixed_precision import experimental as prec
+import tensorflow.keras.mixed_precision as prec
+
 
 import common
 
